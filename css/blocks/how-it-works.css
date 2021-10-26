@@ -37,10 +37,19 @@
 }
 
 .how-it-works-steps {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 390px);
+	column-gap: 95px;
 }
 
 .step {
 	max-width: 390px;
+}
+.step:nth-child(2) {
+	padding-top: 287px;
+}
+.step:nth-child(3) {
+	padding-top: 54px;
 }
 
 .step-heading {
