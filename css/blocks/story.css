@@ -42,11 +42,10 @@
 }
 
 .story-video {
+	border-radius: 18px;
+	overflow: hidden;
 	width: 895px;
 	position: relative;
-}
-.story-video img {
-	border-radius: 18px;
 }
 
 .story-video-btn {
@@ -57,7 +56,6 @@
 }
 
 .stroy-video-overlay {
-	border-radius: 18px;
 	position: absolute;
 	left: 0;
 	top: 0;
