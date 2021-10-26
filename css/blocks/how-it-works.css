@@ -63,6 +63,12 @@
 	line-height: 150%;
 	color: #000000;
 }
+.step:nth-child(2) .step-heading {
+	padding-left: 77px;
+}
+.step:nth-child(3) .step-heading {
+	padding-left: 124px;
+}
 .step-heading::before {
 	position: absolute;
 	top: 0;
