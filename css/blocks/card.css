@@ -50,3 +50,8 @@
 .card ul li + li {
 	margin-top: 20px;
 }
+@media (max-width: 500px) {
+	.card {
+		max-width: 296px;
+	}
+}

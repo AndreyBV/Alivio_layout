@@ -4,6 +4,13 @@ body {
 	font-size: 20px;
 	line-height: 1.5;
 	color: #424242;
+	/* Можно задать фиксированную ширину для быстрого тестирования на мобильных устройствах + отключить метавьюпорт */
+	/* min-width: 1600px; */
+}
+@media (max-width: 990px) {
+	body {
+		font-size: 18px;
+	}
 }
 
 /* Utility */
@@ -33,6 +40,17 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+@media (max-width: 1399px) {
+	.container {
+		width: 100%;
+	}
+}
 .container-wide {
 	width: 1536px;
+}
+@media (max-width: 1535px) {
+	.container-wide {
+		width: 100%;
+	}
 }

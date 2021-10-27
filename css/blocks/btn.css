@@ -27,3 +27,16 @@ a.btn:hover {
 a.btn-big {
 	min-height: 65px;
 }
+
+@media (max-width: 990px) {
+	.btn-big,
+	a.btn-big {
+		min-height: 55px;
+	}
+	.btn,
+	a.btn {
+		min-height: 50px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}

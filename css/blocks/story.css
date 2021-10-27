@@ -44,7 +44,7 @@
 .story-video {
 	border-radius: 18px;
 	overflow: hidden;
-	width: 895px;
+	max-width: 895px;
 	position: relative;
 }
 
@@ -64,5 +64,22 @@
 	background-color: rgba(0, 0, 0, 0.2);
 }
 
-.story-video-object {
+@media (max-width: 1199px) {
+	.story {
+		padding: 60px 0 60px;
+	}
+	.story-row {
+		flex-direction: column-reverse;
+	}
+	.story-video {
+		margin-bottom: 30px;
+	}
+	.story-heading {
+		font-size: 45px;
+		line-height: 1.2;
+	}
+	.story-text + * {
+		margin-top: 35px;
+		justify-content: center;
+	}
 }
