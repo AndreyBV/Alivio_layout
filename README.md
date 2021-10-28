@@ -31,4 +31,4 @@ The main blocks of the page have been implemented, the logic for playing the vid
 
 ## Landing page testing
 
-[ Click me that test AlivioProject](https://andreybv.github.io/AlivioProject/)
+[ Click on me to test the AlivioProject](https://andreybv.github.io/AlivioProject/)
